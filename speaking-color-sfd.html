@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Speaking — Evelyn Chou</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif; min-height: 100vh;
+      background: linear-gradient(175deg,#6b8cba 0%,#9aafc9 18%,#c8b89a 45%,#e8a87c 65%,#e07040 85%,#c85a2a 100%);
+      background-attachment: fixed;
+    }
+    .wrap { min-height: 100vh; display: flex; justify-content: center; padding: clamp(1.75rem, 4vw, 4.5rem); }
+    .content { width: 100%; max-width: 720px; }
+
+    .back {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-size: 0.8rem; letter-spacing: 0.04em; text-decoration: none;
+      color: rgba(255,255,255,0.8); margin-bottom: 2.4rem; transition: color 0.18s;
+    }
+    .back:hover { color: #fff; }
+    .back svg { width: 15px; height: 15px; }
+
+    .eyebrow {
+      font-size: 0.7rem; font-weight: 500; letter-spacing: 0.22em;
+      text-transform: uppercase; color: rgba(255,255,255,0.75); margin-bottom: 1rem;
+    }
+    h1 {
+      font-family: 'Libre Baskerville', serif; font-size: clamp(2.2rem, 6vw, 3rem);
+      font-weight: 700; line-height: 1.12; color: #fff; margin-bottom: 1rem;
+    }
+    .intro {
+      font-size: 1rem; line-height: 1.7; color: rgba(255,255,255,0.9);
+      font-weight: 300; max-width: 520px; margin-bottom: 2.8rem;
+    }
+
+    .section-label {
+      font-size: 0.72rem; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase;
+      color: rgba(255,255,255,0.7); margin: 2.4rem 0 1rem;
+    }
+
+    .talk {
+      display: block; text-decoration: none;
+      background: rgba(255,255,255,0.14); border: 1px solid rgba(255,255,255,0.26);
+      border-radius: 12px; padding: 1.2rem 1.3rem; margin-bottom: 0.9rem;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .talk:hover { background: rgba(255,255,255,0.22); transform: translateY(-2px); }
+    .talk .t-top { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+    .talk .t-title { font-size: 1.05rem; font-weight: 500; color: #fff; margin-bottom: 0.3rem; }
+    .talk .t-meta { font-size: 0.78rem; color: rgba(255,255,255,0.7); white-space: nowrap; }
+    .talk .t-desc { font-size: 0.88rem; line-height: 1.55; color: rgba(255,255,255,0.82); font-weight: 300; }
+
+    footer {
+      margin-top: 3rem; padding-top: 1.6rem; border-top: 1px solid rgba(255,255,255,0.2);
+      font-size: 0.78rem; color: rgba(255,255,255,0.7);
+    }
+    footer a { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="content">
+      <a class="back" href="index-color.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Back
+      </a>
+
+      <p class="eyebrow">Speaking</p>
+      <h1>Ideas worth<br>a room.</h1>
+      <p class="intro">I speak on product growth, AI-first operating, and building through change &mdash; to product teams, founder communities, and conference stages.</p>
+
+      <!-- ON-THEME TALKS -->
+      <p class="section-label">Product · Growth · AI</p>
+
+      <a class="talk" href="https://community.pdma.org/seattle/events/past-events" target="_blank" rel="noopener">
+        <div class="t-top">
+          <div class="t-title">WTF is Growth, Actually??!</div>
+          <div class="t-meta">PDMA Seattle · 2025</div>
+        </div>
+        <p class="t-desc">Cutting through the buzzwords on what a Growth PM actually does day-to-day &mdash; from lifting driver signup conversion at Uber to designing free trials, pricing tiers, and adoption funnels that get users to value faster.</p>
+      </a>
+
+      <a class="talk" href="https://www.youtube.com/watch?v=eIPtFA-oiJs" target="_blank" rel="noopener">
+        <div class="t-top">
+          <div class="t-title">Product Development in the AI Era</div>
+          <div class="t-meta">Rotational Labs · Panel</div>
+        </div>
+        <p class="t-desc">A panel on navigating product strategy in the AI era &mdash; why AI is part of product strategy, not separate from it, and how to weigh cost, customer value, and build-vs-buy before reaching for a model.</p>
+      </a>
+
+      <!-- RANGE -->
+      <p class="section-label">Range</p>
+
+      <a class="talk" href="https://youtu.be/xFvIDERMdK4?si=tobSdNZtuJKwb9qr" target="_blank" rel="noopener">
+        <div class="t-top">
+          <div class="t-title">TEDx &mdash; Navigating what comes after a setback</div>
+          <div class="t-meta">TEDx · 2024</div>
+        </div>
+        <p class="t-desc">A personal talk on resilience and finding direction after a layoff &mdash; and the operator's mindset for turning disruption into a next move. Proof that clarity is a skill you can build.</p>
+      </a>
+
+      <footer>
+        Want me on your stage or in your team offsite? <a href="https://calendly.com/evelynchou" target="_blank" rel="noopener">Let's talk &rarr;</a>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
